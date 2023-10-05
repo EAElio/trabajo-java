@@ -23,15 +23,15 @@
                 </a>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true" data-bs-toggle="dropdown" href="#">La conferencia</a>
+                        <a class="nav-link" aria-disabled="true" data-bs-toggle="dropdown" href="#conferencia">La conferencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Los oradores</a>
+                        <a class="nav-link" href="#Oradores">Los oradores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">El lugar fecha y hora</a>
+                        <a class="nav-link" href="#lugaryhora">El lugar fecha y hora</a>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conviértete en orador</a>
+                        <a class="nav-link" href="#conhorador">Conviértete en orador</a>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Comprar tickets</a>
                     </li>
@@ -40,7 +40,7 @@
         </nav>
         
     </div>
-    <div class="card text-bg-dark">
+    <div class="card text-bg-dark" id="conferencia">
         <img src="img/hawaii.jpg" class="card-img">
         <div class="card-img-overlay">
             <div class="row g-0">
@@ -56,32 +56,33 @@
                             ven a conocer a
                             miembros del evento, a otros estudienates de Codo a Codo y los oradores de primer nivel que
                             tenemos para ti. Te
-                            esperamos!</p>
-                        <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                            esperamos!</P>
+                            <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
                         <button type="button" class="btn btn-success">Comprar ticket</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- oradores -->
-    <h3 class="text-center">conoce a los</h3>
-    <h2 class="text-center">ORADORES</h2>
+    <div id="Oradores"><h3 class="text-center"><font color="white">Conoce a los</font></h3>
+    <h2 class="text-center"><font color="white">ORADORES</font></h2>
+    </div>
+
     <!-- CARD DE ORADORES -->
     <div class="container oradores">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-5">
             <div class="col">
                 <div class="card h-100">
-                    <img src="img/steve.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <img src="img/steve (2).jpg" class="card-img-top" alt="50px">
+                    <div class="card-body"> 
                         <h5 class="card-title">steve Job</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas in vel
                             culpa quae exercitationem amet impedit at molestias, placeat commodi maxime deleniti id
                             repellat voluptates itaque dolore similique ullam excepturi?</p>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col">
@@ -93,9 +94,7 @@
                             repudiandae, nobis assumenda explicabo laudantium incidunt amet veniam possimus cum aliquam
                             quis numquam soluta consequuntur libero perspiciatis tempora expedita quos?.</p>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
+                    
                 </div>
             </div>
             <div class="col">
@@ -107,15 +106,15 @@
                             repellat sapiente atque eius quis deserunt, ipsum nesciunt praesentium at excepturi
                             similique modi laborum eum temporibus eveniet dolores doloribus aliquam. Ad?.</p>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-body-secondary">Last updated 3 mins ago</small>
-                    </div>
+                 
                 </div>
             </div>
         </div>
     </div>
+<h1></h1>
+
     <!--imagen izquierda y testo derecha bs as octubre  -->
-    <div class="card mb-3" style="max-center-width: 1800px;">
+    <div class="card mb-3" style="max-center-width: 1800px;" id="lugaryhora">
         <div class="row g-0">
             <div class="col-md-6">
                 <img src="img/honolulu.jpg" class="img-fluid rounded-start" alt="...">
@@ -135,18 +134,18 @@
     </div>
 
     <!-- es el formulario -->
-    <div class="card text-center">
+    <div class="card text-center" id="conhorador">
         <h4 CLASS="text-center">Conviértete en un</h4>
         <h2 CLASS="text-center">ORADOR</h2>
         <div class="row g-2">
             <div class="col-md">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="name" value="Nombre">
+                    <input type="text" class="form-control" id="floatingTextarea2" placeholder="name" value="Nombre">
                 </div>
             </div>
             <div class="col-md">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Apellido"
+                    <input type="text" class="form-control" id="floatingTextarea2" placeholder="Apellido"
                         value="Apellido">
                 </div>
             </div>
